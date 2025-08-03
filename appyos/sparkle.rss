@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>Launchpad Manager Yosemite Changelog</title>
+      <link>http://attilamiklosi.net/launchpadmanager/lmyosapp/sparkle.rss</link>
+      <description>Most recent changes with links to updates.</description>
+      <language>en</language>      
+
+		<item>
+			<title>Version 1.0.7</title>
+			<description>
+				<![CDATA[
+					<h2>Fixed app signing issues, removed auto updating as it was causing issues</h2>
+				]]>
+			</description>
+			<pubDate>Wed 28 Sep 2016 11:07:44 CEST</pubDate>
+			<enclosure url="http://attilamiklosi.net/launchpadmanager/appyos/1.0.7/LaunchpadManagerYosemite.dmg"
+					   sparkle:version="1.0.7"
+					   sparkle:dsaSignature="MCwCFFi2enL7qwLX895XL79HdxtNsh70AhRLFTN47R4pBglQsejuGOxPySL7+A=="
+					   length="2848966"
+					   type="application/octet-stream" />
+		</item>
+
+		<item>
+			<title>Version 1.0.6</title>
+			<description>
+				<![CDATA[
+					<h2>Fixed registration issue</h2>
+				]]>
+			</description>
+			<pubDate>Wed 28 Sep 2016 09:31:02 CEST</pubDate>
+			<enclosure url="http://attilamiklosi.net/launchpadmanager/appyos/1.0.6/LaunchpadManagerYosemite.dmg"
+					   sparkle:version="1.0.6"
+					   sparkle:dsaSignature="MCwCFCjAVAk9xczLWlt9R7ctnzdY/EOjAhRICMTkrgZeY7H13rDJdt/5+6s97A=="
+					   length="3232087"
+					   type="application/octet-stream" />
+		</item>
+
+		<item>
+			<title>Version 1.0.5</title>
+			<description>
+				<![CDATA[
+					<h2>Signed application so that it will be identified as valid OS X application in Sierra too</h2>
+				]]>
+			</description>
+			<pubDate>Tue 27 Sep 2016 14:57:29 CEST</pubDate>
+			<enclosure url="http://attilamiklosi.net/launchpadmanager/appyos/1.0.5/LaunchpadManagerYosemite.dmg"
+					   sparkle:version="1.0.5"
+					   sparkle:dsaSignature="MC0CFQCJPn3n+y1qdE1cHkoRYycGObDR3gIUabsGzu1WJ19LcHORSWaE0Q4HsvM="
+					   length="3231791"
+					   type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 1.0.4</title>
+			<description>
+				<![CDATA[
+					<h2>Added warning for missing database</h2>				
+				]]>
+			</description>
+			<pubDate>Mon 12 Jan 2015 19:49:10 CET</pubDate>
+			<enclosure url="http://attilamiklosi.net/launchpadmanager/appyos/1.0.4/LaunchpadManagerYosemite.dmg"
+					   sparkle:version="1.0.4"
+					   sparkle:dsaSignature="MCwCFGwEH/z9yEh5lKkETYU/Kqw6WRF6AhQ/woDcO8Vo94pEYchDaux0/YM/Ng=="
+					   length="3215328"
+					   type="application/octet-stream" />
+		</item>
+
+		<item>
+			<title>Version 1.0.3</title>
+			<description>
+				<![CDATA[
+					<h2>Big Fixes</h2>
+					<ul>
+						<li>Fixed issues with Regenerate</li>
+					</ul>
+				]]>
+			</description>
+			<pubDate>Tue  6 Jan 2015 12:50:10 CET</pubDate>
+			<enclosure url="http://attilamiklosi.net/launchpadmanager/appyos/1.0.3/LaunchpadManagerYosemite.dmg"
+					   sparkle:version="1.0.3"
+					   sparkle:dsaSignature="MCwCFHYARBp9kTRQs70+bYzbiNxM8cyQAhRg59n94cU/av3LNGXZMnMro2tLQw=="
+					   length="3214895"
+					   type="application/octet-stream" />
+		</item>
+
+		<item>
+			<title>Version 1.0.2</title>
+			<description>
+				<![CDATA[
+					<h2>Bug fixes</h2>
+					<ul>
+						<li>License key can be pasted by cmd+v</li>
+						<li>Sort within groups works</li>
+					</ul>
+				]]>
+			</description>
+			<pubDate>Thu 13 Nov 2014 07:33:53 CET</pubDate>
+			<enclosure url="http://attilamiklosi.net/launchpadmanager/appyos/1.0.2/LaunchpadManagerYosemite.dmg"
+					   sparkle:version="1.0.2"
+					   sparkle:dsaSignature="MCwCFFpqlSQf/TNYB4CXD4m2OeNVcgmpAhRZzF3J35HElk+u8jI/5nGLMamvsg=="
+					   length="3211013"
+					   type="application/octet-stream" />
+		</item>
+
+		<item>
+			<title>Version 1.0.1</title>
+			<description>
+				<![CDATA[
+					<h2>First release of Launchpad Manager Yosemite</h2>
+					<p>Please report any problems and bugs to miklosi.attila@gmail.com</p>
+				]]>
+			</description>
+			<pubDate>Mon  3 Nov 2014 10:44:20 CET</pubDate>
+			<enclosure url="http://attilamiklosi.net/launchpadmanager/appyos/1.0.1/LaunchpadManagerYosemite.dmg"
+					   sparkle:version="1.0.1"
+					   sparkle:dsaSignature="MCwCFFjIW/ekF4JGnu8wOP6Vtio2HKSlAhRMZqGsbzipbILqRKW8qe7ydbvg4A=="
+					   length="3210397"
+					   type="application/octet-stream" />
+				
+		</item>
+
+
+	</channel>
+</rss>
+
+

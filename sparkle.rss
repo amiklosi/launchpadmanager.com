@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>Launchpad Manager Changelog</title>
+      <link>http://attilamiklosi.net/launchpadmanager/sparkle.rss</link>
+      <description>Most recent changes with links to updates.</description>
+      <language>en</language>      
+
+
+	<item>
+		<title>Version 1.3.11</title>
+		<description>
+			<![CDATA[
+				<h2>Last release of Launchpad Manager</h2>
+				<p>Included compatibility info for OS X Yosemite</p>
+			]]>
+		</description>
+		<pubDate>Tue Nov  4 08:06:23 CET 2014</pubDate>
+		<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.3.11/LaunchpadManager.dmg"
+				   sparkle:version="1.3.11"
+				   sparkle:dsaSignature="MCwCFA+DsAs++7teLX0Ywu1hmyNBQHPGAhRyEzhppIKr18FIoGY9hGwF/ekmkg=="
+				   length="3446095"
+				   type="application/octet-stream" />
+	</item>
+
+	<item>
+		<title>Version 1.3.10</title>
+		<description>
+			<![CDATA[
+				<h2>Bug Fixes</h2>
+				<li>Fixed some problems with item ordering logic that was causing issues with grouping and moving items to new page</li>
+			]]>
+		</description>
+		<pubDate>Sat Apr  5 17:48:20 CEST 2014</pubDate>
+		<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.3.10/LaunchpadManager.dmg"
+				   sparkle:version="1.3.10"
+				   sparkle:dsaSignature="MC0CFB+QKwB9WUmlyBsw4zeH4935TdWEAhUAh94bDloEZ/JFhhbNThVwfJcZ4kE="
+				   length="3441437"
+				   type="application/octet-stream" />
+	</item>
+
+	<item>
+		<title>Version 1.3.9</title>
+		<description>
+			<![CDATA[
+				<h2>Bug fix</h2>
+				<li>Fixed removed apps not showing up in Available tab</li>
+			]]>
+		</description>
+		<pubDate>Wed Apr  2 17:10:30 CEST 2014</pubDate>
+		<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.3.9/LaunchpadManager.dmg"
+				   sparkle:version="1.3.9"
+				   sparkle:dsaSignature="MCwCFCg6LMdvx/QTow7lTILKp39rEhOAAhQI7lhuVNqX1znqWtFZMBEaahKR3g=="
+				   length="3440243"
+				   type="application/octet-stream" />
+	</item>
+
+	<item>
+		<title>Version 1.3.8</title>
+		<description>
+			<![CDATA[
+				<h2>Mavericks 10.9.1 update fixes</h2>
+				<h3>Some changes were introduced to Launchpad in OS X 10.9.1 update that were breaking Launchpad Manager.
+					These issues should be fixed now, please let me know if you are still having issues.
+				</h3>
+			]]>
+		</description>
+		<pubDate>Mon Dec 23 10:26:01 CET 2013</pubDate>
+		<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.3.8/LaunchpadManager.dmg"
+				   sparkle:version="1.3.8"
+				   sparkle:dsaSignature="MC0CFF/GLlmJuiCbgm/rHc4JgWBWoXW7AhUAifNYrKUc9o1CsAn0m4tm+TyWWsU="
+				   length="3440909"
+				   type="application/octet-stream" />
+	</item>
+
+	<item>
+		<title>Version 1.3.7</title>
+		<description>
+			<![CDATA[
+				<h2>Additional layout loading/saving fixes for Mavericks</h2>
+				<h3>As many users reported there are still issues with loading and saving layouts I have
+					rewritten the logic to be as safe as possible. Unfortunately Mavericks itself seems
+					to have issues with Launchpad so there is no guarantee it will always behave as expected.
+					Save your layouts frequently into separate files. </h3>
+			]]>
+		</description>
+		<pubDate>Tue Nov 26 14:43:36 CET 2013</pubDate>
+		<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.3.7/LaunchpadManager.dmg"
+				   sparkle:version="1.3.7"
+				   sparkle:dsaSignature="MCwCFH8j+kYFE7Clemv7w3YFGV63mj4uAhQBRPaa6ICp+5MqGxJjiGHdP9ldiw=="
+				   length="3435583"
+				   type="application/octet-stream" />
+	</item>
+
+	<item>
+		<title>Version 1.3.6</title>
+		<description>
+			<![CDATA[
+				<h2>Load layout bugfix: loading layout didn't work in certain cases, should be fixed now.</h2>
+			]]>
+		</description>
+		<pubDate>Thu Nov 21 17:13:44 CET 2013</pubDate>
+		<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.3.6/LaunchpadManager.dmg"
+				   sparkle:version="1.3.6"
+				   sparkle:dsaSignature="MCwCFGUdPAPk09YIlwdVdl3tjPdnmzFPAhRtvDOJ5Bg4vyWOjm10KxLh0F2HZA=="
+				   length="3435868"
+				   type="application/octet-stream" />
+	</item>
+
+	<item>
+		<title>Version 1.3.5</title>
+		<description>
+			<![CDATA[
+				<h2>Even more Mavericks fixes</h2>
+				<ul>
+					<li>Saving the layout before applying was causing serious issue, which is now fixed.</li>
+				</ul>
+
+			]]>
+		</description>
+		<pubDate>Thu 31 Oct 2013 10:50:11 CET</pubDate>
+		<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.3.5/LaunchpadManager.dmg"
+			   sparkle:version="1.3.5"
+			   sparkle:dsaSignature="MC0CFQCRk7PVu9LkAz55sttoABGgOUAxTQIUW+Fwl/gVqLiLBqr7o9od2FBKR/o="
+			   length="3439648"
+			   type="application/octet-stream" />
+	</item>
+
+	<item>
+		<title>Version 1.3.4</title>
+		<description>
+			<![CDATA[
+				<h2>More Mavericks fixes</h2>
+				<b>Many users reported weird behavior under Mavericks. If you see anything out of place please don't use your saved layout but start afresh by clicking 'Regenerate'. If after that you are still experiencing issues please report them to me along with the steps to reproduce if it (if possible). Apologies for the inconvenience, I'm trying to get all these issues fixed ASAP.
+				</b>
+			]]>
+		</description>
+		<pubDate>Wed 30 Oct 2013 11:07:37 CET</pubDate>
+		<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.3.4/LaunchpadManager.dmg"
+				   sparkle:version="1.3.4"
+				   sparkle:dsaSignature="MCwCFDjW9JBmObSkr3JTVQ7NyBk3wdMNAhQFyOUvqc2osSLDNDq8ZWDuV+4ANw=="
+				   length="3439312"
+				   type="application/octet-stream" />
+	</item>
+
+	<item>
+		<title>Version 1.3.3</title>
+		<description>
+			<![CDATA[
+				<h2>Mavericks fixed</h2>
+				<ul>
+					<li>Grouped items appear at the correct place</li>
+					<li>Items appear correctly after alphabetical ordering </li>
+					<li>Saving / Loading layout works</li>
+				</ul>
+				<h2>Please note that migrating layout files between different OS X versions is not supported so you won't be able to load the layouts in Mavericks that you saved in Mountain Lion.
+				</h2>
+
+
+			]]>
+		</description>
+		<pubDate>Sun 27 Oct 2013 09:31:14 CET</pubDate>
+		<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.3.3/LaunchpadManager.dmg"
+				   sparkle:version="1.3.3"
+				   sparkle:dsaSignature="MCwCFBishICg9/DoqyEzduem/k9SDk2yAhQYMmjPgsWa6vqrDJ04VVusdtNUVg=="
+				   length="3439238"
+				   type="application/octet-stream" />
+	</item>
+
+	<item>
+		<title>Version 1.3.2</title>
+		<description>
+			<![CDATA[
+				<h2>Bug fixes</h2>
+				<ul>
+					<li>Saving layout saves the actual state (it was saving the last applied one)
+					<li>Fixed incorrect no space for ungroupping message
+					<li>Fixed losing changes when switching between tabs (option to save is offered)
+					<li>Got rid of external Launchpad db change popup
+				</ul>
+			]]>
+		</description>
+		<pubDate>Thu  2 May 2013 18:15:57 CEST</pubDate>
+		<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.3.2/LaunchpadManager.dmg"
+				   sparkle:version="1.3.2"
+				   sparkle:dsaSignature="MCwCFHgnRNTPLgCPWdZANhcWZQEErX0GAhQAuH2t0IeX9H5Azpvo+/3tA+1HkA=="
+				   length="3437391"
+				   type="application/octet-stream" />
+	</item>
+
+	<item>
+		<title>Version 1.3.1</title>
+		<description>
+			<![CDATA[
+				<h2>New Feature</h2>
+				<li>Cut and paste operation that makes moving items around pages and groups much quicker and easier</li>
+			]]>
+		</description>
+		<pubDate>Wed 29 Aug 2012 12:01:09 BST</pubDate>
+		<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.3.1/LaunchpadManager.dmg"
+				   sparkle:version="1.3.1"
+				   sparkle:dsaSignature="MC0CFAkak19joxMZdAKFm2d+3JvFrsqkAhUAj0+MJRgMW4sZkTZmvJmaYwgOb/k="
+				   length="3438445"
+				   type="application/octet-stream" />
+	</item>   
+
+	<item>
+		<title>Version 1.2.13</title>
+		<description>
+			<![CDATA[
+					<h2>Bug fix</h2>
+					<li>Additional fixes for crashing
+				]]>
+		</description>
+		<pubDate>Wed 22 Aug 2012 13:08:15 BST</pubDate>
+		<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.2.13/LaunchpadManager.dmg"
+				   sparkle:version="1.2.13"
+				   sparkle:dsaSignature="MCwCFG2RqMryszFVMocamRI7Es2SYcjjAhQBNXwa9wO83fpGs94cx3aRl5uxFQ=="
+				   length="3429904"
+				   type="application/octet-stream" />
+	</item>  
+
+	<item>
+		<title>Version 1.2.12</title>
+		<description>
+				<![CDATA[
+					<h2>Bug fix</h2>
+					<li>Fixed initial crash at DB detection
+				]]>
+		</description>
+		<pubDate>Wed 22 Aug 2012 11:50:41 BST</pubDate>
+		<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.2.12/LaunchpadManager.dmg"
+				   sparkle:version="1.2.12"
+				   sparkle:dsaSignature="MCwCFGcQrSsi3qU45/eEy6ymNBF7M4MJAhRq5l/0ISmQuyOVz8WA5TEvsd2Pog=="
+				   length="3430671"
+				   type="application/octet-stream" />
+	</item>  
+
+	<item>
+		<title>Version 1.2.11</title>
+		<description>
+				<![CDATA[
+					<h2>Bug fix</h2>
+					<li>Fixed bug with switching between Apps/Widgets/Available tabs
+				]]>
+		</description>
+		<pubDate>Wed 22 Aug 2012 09:06:09 BST</pubDate>
+		<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.2.11/LaunchpadManager.dmg"
+				   sparkle:version="1.2.11"
+				   sparkle:dsaSignature="MCwCFB9Pz8XnTKUWvQPRBdei2ooAdG4yAhQijyyfvFOfJwifRPQhxWqbN2sC0Q=="
+				   length="3429290"
+				   type="application/octet-stream" />
+	</item>   
+
+
+	<item>
+		<title>Version 1.2.10</title>
+		<description>
+			<![CDATA[
+				<h2>Bug fix</h2>
+				<li>Reverted back the fast icon loading as it was causing lots of problems for many users
+			]]>
+		</description>
+		<pubDate>Wed 22 Aug 2012 07:23:53 BST</pubDate>
+		<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.2.10/LaunchpadManager.dmg"
+				   sparkle:version="1.2.10"
+				   sparkle:dsaSignature="MCwCFAh7uDrQuk6vtrjlYnL/cvAN/VzXAhR8lhX32CgL3DgXV9T5khNfUGqVag=="
+				   length="3428443"
+				   type="application/octet-stream" />
+	</item>   
+
+
+	<item>
+		<title>Version 1.2.9</title>
+		<description>
+			<![CDATA[
+				<h2>Bug fix</h2>
+				<li>Reverted back the fast icon loading as it was causing lots of problems for many users
+			]]>
+		</description>
+		<pubDate>Wed 22 Aug 2012 06:47:32 BST</pubDate>
+		<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.2.9/LaunchpadManager.dmg"
+				   sparkle:version="1.2.9"
+				   sparkle:dsaSignature="MCwCFEIs95JjwAKZY3rHeGxLd6VJTh3YAhRbAvv2id4v9ETb9TVa1JwRVhThGg=="
+				   length="3427658"
+				   type="application/octet-stream" />
+	</item>   
+		<item>
+			<title>Version 1.2.8</title>
+			<description>
+				<![CDATA[
+					<h2>Important bug fix</h2>
+					<li>The previous version was crashing for some people, this version should sort out the crashing problem
+				]]>
+			</description>
+			<pubDate>Tue 21 Aug 2012 11:52:37 BST</pubDate>
+			<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.2.8/LaunchpadManager.dmg"
+					   sparkle:version="1.2.8"
+					   sparkle:dsaSignature="MCwCFA9AnGT4bAgy8bSbfEbd39Dgp7UIAhQLYHdTKPCoDecgMbIXOkLksdBQkA=="
+					   length="3427899"
+					   type="application/octet-stream" />
+		</item>   
+
+		<item>
+			<title>Version 1.2.7</title>
+			<description>
+				<![CDATA[
+					<h2>Minor improvements</h2>
+					<li>Faster icon loading
+					<li>Handling database correctly Launchpad Control have been used on
+				]]>
+			</description>
+			<pubDate>Fri 17 Aug 2012 07:54:49 BST</pubDate>
+			<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.2.7/LaunchpadManager.dmg"
+					   sparkle:version="1.2.7"
+					   sparkle:dsaSignature="MCwCFByTLoGk+zrpFlmZCSDHOVqAYWQNAhQPO0F0EfTDWJToN2uysoPTpPEGaA=="
+					   length="3427831"
+					   type="application/octet-stream" />
+		</item>   
+
+		<item>
+			<title>Version 1.2.6</title>
+			<description>
+				<![CDATA[
+					<h2>New feature:</h2>
+					<li>Add missing applications to Launchpad from your Applications folder
+					<h2>Bug fixes</h2>
+					<li>Ungrouping items bug
+					<li>Alphabetical sorting problem
+					<li>Registration anomalies
+				]]>
+			</description>
+			<pubDate>Tue 14 Aug 2012 14:04:20 BST</pubDate>
+			<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.2.6/LaunchpadManager.dmg"
+					   sparkle:version="1.2.6"
+					   sparkle:dsaSignature="MCwCFB35R1epePHChsHdjrU1PGvaLNbkAhQ9Zn63Nil6bp88bVp/nsFnDa+vJA=="
+					   length="3427656"
+					   type="application/octet-stream" />
+		</item>
+
+		<item>
+			<title>Version 1.2.5</title>
+			<description>
+			<![CDATA[
+				<h2>Bug Fixes</h2>
+				<br />
+				<li>For some people the application was not using the correct database file. This has been improved so 
+					it should work properly now.
+			]]>
+			</description>
+			<pubDate>Thu  2 Aug 2012 09:40:37 BST</pubDate>
+			<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.2.5/LaunchpadManager.dmg"
+					   sparkle:version="1.2.5"
+					   sparkle:dsaSignature="MC0CFQCQX8xtO6M1i5fCRGIpScs/zKDdpAIUAXKw5Sk3CCjymiSZ7/7EYkqZl4g="
+					   length="3416884"
+					   type="application/octet-stream" />
+		</item>   
+
+
+		<item>
+			<title>Version 1.2.4</title>
+			<description>
+				<![CDATA[
+					<h2>Improved Mountain Lion support</h2>
+					<br>
+					<li>Widgets can be managed as well. Only the Renaming functionality works in the Demo version.</li>
+					<li>Mountain Lion crash fixes</li>
+				]]>
+			</description>
+			<pubDate>Thu 26 Jul 2012 10:29:29 BST</pubDate>
+			<enclosure url="http://launchpadmanager.com/app/1.2.4/LaunchpadManager.dmg"
+					   sparkle:version="1.2.4"
+					   sparkle:dsaSignature="MCwCFHj1WIo+JzwwXGdGLkKGG5vCngObAhRHUGhK3PWXXYQea/JrSqxJUJvoUw=="
+					   length="5331149"
+					   type="application/octet-stream" />
+		</item>   
+
+		<item>
+			<title>Version 1.2.3</title>
+			<description>
+				<![CDATA[
+					<h2>Improved Mountain Lion support</h2>
+					<br>
+					<li>Widgets can be managed as well. Only the Renaming functionality works in the Demo version.</li>
+					<li>Hotfix: icons were not showing in Lion. It's fixed now they should be shown. If you're still experiencing probelms in Lion please let know!
+				]]>
+			</description>
+			<pubDate>Mon 23 Jul 2012 19:53:47 BST</pubDate>
+			<enclosure url="http://launchpadmanager.com/app/1.2.3/LaunchpadManager.dmg"
+					   sparkle:version="1.2.3"
+					   sparkle:dsaSignature="MCwCFC+GCJh1DSFvVe9sAwnVGEVTdQKyAhQOYEqvvqki1Sv8PZHnSSpFee1gPg=="
+					   length="5415378"
+					   type="application/octet-stream" />
+		</item>  
+
+		<item>
+			<title>Version 1.2.2</title>
+			<description>
+				<![CDATA[
+					<h2>Improved Mountain Lion support</h2>
+					<br>
+					<li>Widgets can be managed as well. Only the Renaming functionality works in the Demo version.</li>
+				]]>
+			</description>
+			<pubDate>Mon 23 Jul 2012 15:34:17 BST</pubDate>
+			<enclosure url="http://launchpadmanager.com/app/1.2.2/LaunchpadManager.dmg"
+					   sparkle:version="1.2.2"
+					   sparkle:dsaSignature="MC0CFQCMQ1lCfMdI/ETamZbpe3f65EBrnwIUJJupMlk90GyqaEsO7xUe/pUxfcg="
+					   length="4457357"
+					   type="application/octet-stream" />
+		</item>   
+
+		<item>
+			<title>Version 1.2.1</title>
+			<description>
+				<![CDATA[
+					<h2>First Mountain Lion version</h2>
+					<p>This is a very important update if you are planning to use Launchpad Manager on Mountain Lion.
+					The previous version will not display the layout correctly and can lead to unexpected behaviours.
+					</p>
+					<p>
+					Note: the application is of course still fully compatible with all versions of OS X Lion 10.7.x.
+					</p>
+					<p>
+					Please update to this version for Mountain Lion!
+					</p>
+				]]>
+			</description>
+			<pubDate>Fri 13 Jul 2012 08:55:39 BST</pubDate>
+			<enclosure url="http://launchpadmanager.com/app/1.2.1/LaunchpadManager.dmg"
+			   sparkle:version="1.2.1"
+			   sparkle:dsaSignature="MC0CFQCSCpmiTcYyVPiL6qZW7WiCkU8RHgIUWN3r8J9oSOq5/qt31FnzldFR/X0="
+			   length="4415167"
+			   type="application/octet-stream" />
+		</item>   
+
+		<item>
+			<title>Version 1.1.2</title>
+			<description>
+				<![CDATA[
+					<h2>Important New Feature</h2>
+
+					<li>Save/Load Launchpad Layout<br />
+					This feature lets you save the layout of the launchpad once you're happy with it. Some users were having problem with Launchpad randomly restoring the layout, this 
+					feature can be a good solution for that.<br />
+					<br />
+					<b>Experimental</b>: it may be possible to use the layout on a different computer to which it was saved on but there's no guarantee for it to work properly. Use it
+					at your own risk (however things can't go that wrong, the worst case is that you have to regenerate the Launchpad database).
+
+					<li>Hotfix: Toolbar layout has been fixed, the apply button is now visible
+				]]>
+			</description>
+			<pubDate>Tue 26 Jun 2012 12:56:51 BST</pubDate>
+			<enclosure url="http://launchpadmanager.com/app/1.1.2/LaunchpadManager.dmg"
+					   sparkle:version="1.1.2"
+					   sparkle:dsaSignature="MCwCFFkQeKH8NFwUSdNTvvbkMqWxQEXBAhRpgh70v1GDo6NKkNmr45EIkpsqiw=="
+					   length="3883307"
+					   type="application/octet-stream" />
+		</item>   
+
+		<item>
+			<title>Version 1.1.1</title>
+			<description>
+				<![CDATA[
+					<h2>Important New Feature</h2>
+
+					<li>Save/Load Launchpad Layout<br />
+					This feature lets you save the layout of the launchpad once you're happy with it. Some users were having problem with Launchpad randomly restoring the layout, this 
+					feature can be a good solution for that.<br />
+					<br />
+					<b>Experimental</b>: it may be possible to use the layout on a different computer to which it was saved on but there's no guarantee for it to work properly. Use it
+					at your own risk (however things can't go that wrong, the worst case is that you have to regenerate the Launchpad database).
+
+				]]>
+			</description>
+			<pubDate>Mon 25 Jun 2012 17:27:53 BST</pubDate>
+			<enclosure url="http://launchpadmanager.com/app/1.1.1/LaunchpadManager.dmg"
+					   sparkle:version="1.1.1"
+					   sparkle:dsaSignature="MCwCFHb8GNlXCt+fURs/VAQxp2o30aZQAhQOYTf49TGSWrNu2pTaz++EMqvg5A=="
+					   length="3921633"
+					   type="application/octet-stream" />
+		</item>   
+
+
+		<item>
+			<title>Version 1.0.9</title>
+			<description>
+				<![CDATA[
+					<h2>Bug Fixes</h2>
+					<ul>
+					<li>Sorting group alphabetically doesn't sort items outside the group
+					</ul>
+
+				]]>
+			</description>
+			<pubDate>Fri  1 Jun 2012 08:10:53 BST</pubDate>
+			<enclosure url="http://launchpadmanager.com/app/1.0.9/LaunchpadManager.dmg"
+					   sparkle:version="1.0.9"
+					   sparkle:dsaSignature="MCwCFFYXSYk0gScUndlL1sHAH2BQcVvgAhQ+JSVthInWvbKJrINZLEhEUfEeZw=="
+					   length="3938097"
+					   type="application/octet-stream" />
+		</item>  
+
+		<item>
+			<title>Version 1.0.8</title>
+			<description>
+				<![CDATA[
+					<h2>New features</h2>
+					<ul>
+					<li>Sort group alphabetically
+					</ul>
+					<h2>Bug fixes</h2>
+					<ul>
+					<li>More than 6 pages problem fixed
+					</ul>
+				]]>
+			</description>
+			<pubDate>Mon 19 Mar 2012 08:33:52 GMT</pubDate>
+			<enclosure url="http://launchpadmanager.com/app/1.0.8/LaunchpadManager.dmg"
+			   sparkle:version="1.0.8"
+			   sparkle:dsaSignature="MCwCFEZvmFVgz1m5jiMXZ4UsWQFRDGL5AhRaaXY2eaus5rVWobJSioXxmPrQlQ=="
+			   length="3883850"
+			   type="application/octet-stream" />
+			   </item>   
+
+		<item>
+			<title>Version 1.0.7</title>
+			<description>
+				<![CDATA[
+					<h2>New features</h2>
+					<li>Clear indication of registartion
+					<li>Move items to another page
+					<li>Move items to new page (PRO version only)
+				]]>
+			</description>
+			<pubDate>Sun 22 Jan 2012 15:29:25 GMT</pubDate>
+			<enclosure url="http://launchpadmanager.com/app/1.0.7/LaunchpadManager.dmg"
+					   sparkle:version="1.0.7"
+					   sparkle:dsaSignature="MCwCFCxT2BTwyEF7ET8/PftJQaPF+FYIAhRGODDFJiElPpzOVhNhqZ2PH2DVOg=="
+					   length="3526737"
+					   type="application/octet-stream" />
+		</item>
+
+		<item>
+			<title>Version 1.0.6</title>
+			<description>
+				<![CDATA[
+					<h2>Minor cosmetic fixes</h2>
+				]]>
+			</description>
+			<pubDate>Sun 15 Jan 2012 21:26:21 GMT</pubDate>
+			<enclosure url="http://launchpadmanager.com/app/1.0.6/LaunchpadManager.dmg"
+					   sparkle:version="1.0.6"
+					   sparkle:dsaSignature="MCwCFGbNES89/kJ8tRu8UAqxCN/m1ycQAhQ2hsVKWOwx/EF1JH3oA2ancxvX2A=="
+					   length="3324943"
+					   type="application/octet-stream" />
+		</item> 
+
+		  <item>
+			<title>Version 1.0.5</title>
+			<description>
+				<![CDATA[
+					<h2>New features:</h2>
+					<li>Alphabetical ordering only on selected pages
+				]]>
+			</description>
+			<pubDate>Sun 15 Jan 2012 11:33:27 GMT</pubDate>
+			<enclosure url="http://launchpadmanager.com/app/1.0.5/LaunchpadManager.dmg"
+					   sparkle:version="1.0.5"
+					   sparkle:dsaSignature="MC0CFQCKGYICihH9e02jDhJ3tLCYLI0BMwIUboib9ipjWTFk2/6XIuv6R/ftwmU="
+					   length="3333190"
+					   type="application/octet-stream" />
+		</item>   
+
+		<item>
+			<title>Version 1.0.4</title>
+			<description>
+				<![CDATA[
+					<h2>Minor fixes</h2>
+					<li>Minor bug fixes</li>
+					<li>Easier purchase</li>
+					
+					
+				]]>
+			</description>
+			<pubDate>Sun 18 Dec 2011 17:15:08 GMT</pubDate>
+			<enclosure url="http://launchpadmanager.com/app/1.0.4/LaunchpadManager.dmg"
+					   sparkle:version="1.0.4"
+					   sparkle:dsaSignature="MCwCFGLm5LA1Ohn1f6Pz4K49dIHv2nvDAhQpADfM08nL6YybQbx8OhJh4/A6xg=="
+					   length="3305630"
+					   type="application/octet-stream" />
+		</item> 		
+		<item>
+			<title>Version 1.0.3</title>
+			<description>
+				<![CDATA[
+					<h2>First public version</h2>
+				]]>
+			</description>
+			<pubDate>Tue 22 Nov 2011 15:41:17 GMT</pubDate>
+			<enclosure url="http://attilamiklosi.net/launchpadmanager/app/1.0.3/LaunchpadManager.dmg"
+					   sparkle:version="1.0.3"
+					   sparkle:dsaSignature="MCwCFE/gJe5SN3txxCZzAO0MypwahMsBAhRQaj/h1w+vbG0/z2aJtQYcQvBbHw=="
+					   length="3276791"
+					   type="application/octet-stream" />
+		</item>
+		
+		<item>
+			<title>Version 1.0.1</title>
+			<sparkle:releaseNotesLink>
+				http://attilamiklosi.net/launchpadmanager/app/1.0.1.html
+			</sparkle:releaseNotesLink>
+			<pubDate>Wed, 15 Nov 2011 12:20:11 +0000</pubDate>
+			<enclosure url="http://attilamiklosi.net/launchpadmanager/app/LaunchpadManager1.0.1.zip"
+					   sparkle:version="1.0.1"
+					   sparkle:dsaSignature="MC0CFQCMqDtxuOe5L0TKlnkPkxHKxDc5XwIUOmRB7QlNh+09W+eKuAtQnq/Hc60="
+					   length="1540899"
+					   type="application/octet-stream" />
+		</item>   
+      
+		<item>
+			<title>Version 1.0</title>
+			<sparkle:releaseNotesLink>
+				http://attilamiklosi.net/launchpadmanager/app/1.0.html
+			</sparkle:releaseNotesLink>
+			<pubDate>Wed, 15 Nov 2011 11:20:11 +0000</pubDate>
+			<enclosure url="http://attilamiklosi.net/launchpadmanager/app/LaunchpadManager1.0.zip"
+					   sparkle:version="1.0"
+					   sparkle:dsaSignature="MCwCFH0eJY0qZn9i4vSpXj5+P176B7E5AhRB5TlmOO8NtNq5Wluuz84WKopgwQ=="
+					   length="1540900"
+					   type="application/octet-stream" />
+		</item>   
+	</channel>
+</rss>
+
+

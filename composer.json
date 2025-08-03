@@ -1,0 +1,6 @@
+{
+    "require": {
+        "posthog/posthog-php": "^3.6",
+        "sendgrid/sendgrid": "^8.1"
+    }
+}

@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+      - ./uploads:/var/www/html/uploads
+    environment:
+      - PAYPAL_URL=https://www.sandbox.paypal.com/cgi-bin/webscr
+      - PAYPAL_RECEIVER=your-sandbox-email@example.com
+      - OWN_SERVER=http://localhost:8080
+    depends_on:
+      - mysql
+    networks:
+      - launchpad-network
+
+  mysql:
+    image: mysql:8.0
+    container_name: launchpad_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: z3bral0
+      MYSQL_DATABASE: lmyosemite
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./docker/mysql-init:/docker-entrypoint-initdb.d
+    networks:
+      - launchpad-network
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: launchpad_phpmyadmin
+    restart: unless-stopped
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_USER: root
+      PMA_PASSWORD: z3bral0
+    ports:
+      - "8081:80"
+    depends_on:
+      - mysql
+    networks:
+      - launchpad-network
+
+volumes:
+  mysql_data:
+
+networks:
+  launchpad-network:
+    driver: bridge
