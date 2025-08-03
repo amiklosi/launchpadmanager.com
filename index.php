@@ -2,6 +2,14 @@
    include 'header.php'; ?>
    
     <div class="content" id="wrapper">
+      <!-- Deprecation Banner -->
+      <div class="deprecation-banner">
+        <div class="banner-content">
+          <h3>⚠️ Important Notice</h3>
+          <p>Apple is deprecating Launchpad in macOS Tahoe. For a continued Launchpad-like experience, check out <strong><a href="https://zekalogic.com/appgrid.html" target="_blank">AppGrid</a></strong> - a modern alternative for organizing your apps.</p>
+        </div>
+      </div>
+      
       <article>
         <div class="intro"></div>
         

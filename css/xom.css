@@ -2,6 +2,44 @@
 
 @charset "utf-8";
 
+/* Deprecation Banner Styles */
+.deprecation-banner {
+	background: linear-gradient(135deg, #2c3e50, #3498db) !important;
+	color: white !important;
+	padding: 20px 25px !important;
+	margin: 100px 0 20px 0 !important;
+	border-radius: 12px !important;
+	box-shadow: 0 6px 20px rgba(0,0,0,0.1) !important;
+	border-left: 4px solid #f39c12 !important;
+	display: block !important;
+	width: auto !important;
+	position: relative !important;
+}
+
+.deprecation-banner .banner-content h3 {
+	margin: 0 0 8px 0 !important;
+	font-size: 18px !important;
+	font-weight: bold !important;
+	color: white !important;
+}
+
+.deprecation-banner .banner-content p {
+	margin: 0 !important;
+	font-size: 14px !important;
+	line-height: 1.4 !important;
+	color: white !important;
+}
+
+.deprecation-banner .banner-content a {
+	color: white !important;
+	text-decoration: underline !important;
+	font-weight: bold !important;
+}
+
+.deprecation-banner .banner-content a:hover {
+	color: #f39c12 !important;
+}
+
 .yosemite {
 	font-size: 20px;
 	color: #fff;
