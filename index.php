@@ -6,7 +6,7 @@
       <div class="deprecation-banner">
         <div class="banner-content">
           <h3>⚠️ Important Notice</h3>
-          <p>Apple is deprecating Launchpad in macOS Tahoe. For a continued Launchpad-like experience, check out <strong><a href="https://zekalogic.com/appgrid.html" target="_blank">AppGrid</a></strong> - a modern alternative for organizing your apps.</p>
+          <p>Apple is deprecating Launchpad in macOS Tahoe. For a continued Launchpad-like experience, check out <strong><a href="https://appgridmac.com" target="_blank">AppGrid</a></strong> - a modern alternative for organizing your apps.</p>
         </div>
       </div>
       
