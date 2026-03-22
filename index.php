@@ -2,62 +2,28 @@
    include 'header.php'; ?>
    
     <div class="content" id="wrapper">
-      <!-- Deprecation Banner -->
-      <div class="deprecation-banner">
-        <div class="banner-content">
-          <h3>⚠️ Important Notice</h3>
-          <p>Apple is deprecating Launchpad in macOS Tahoe. For a continued Launchpad-like experience, check out <strong><a href="https://appgridmac.com" target="_blank">AppGrid</a></strong> - a modern alternative for organizing your apps.</p>
+
+      <!-- AppGrid Hero -->
+      <div class="ag-hero">
+        <div class="ag-hero-inner">
+          <div class="ag-hero-text">
+            <p class="ag-label">From the developer of Launchpad Manager</p>
+            <h1>AppGrid</h1>
+            <p class="ag-sub">Apple removed Launchpad in macOS Tahoe. AppGrid brings it back — everything Launchpad Manager could do (delete, rearrange, group, alphabetical sort) and more, rebuilt for macOS Tahoe.</p>
+            <div class="ag-buttons">
+              <a class="ag-btn-primary" href="https://zekalogic.com/appgrid/app/download.php" onclick="posthog && posthog.capture('lm_download_direct');">Download — $25 Lifetime</a>
+            </div>
+            <p class="ag-note">Free core features · no subscription required · <a href="https://appgridmac.com" target="_blank">appgridmac.com</a></p>
+          </div>
         </div>
       </div>
-      
-      <article>
-        <div class="intro"></div>
-        
-      
-      	<h2 class="dark">Get the most out of Launchpad!</h2>
-      	<p class="dark">
-      		Delete, Rearrange, Group or Ungroup any of your Launchpad Icons, 
-      		<br />or
-      		simply put them into alphabetical order!
-      		<a class="btn" href="features.php">Read More</a>
-      	</p>
-      </article><!--start article -->
-      <aside>
-        <hgroup>
-          <center>
-          <h1>
-          Launchpad Manager          
-          </h1>
-          <p class='yosemite'><b>Big Sur and above</b></p>
-          <p class='yosemite'>Intel and M1 chipset</p>
-          <a class="yellow roundbutton downloadicon" href="download_yosemite.php">Download</a>
-          <p class="gray">Please report problems and bugs <a href="contact.php">here</a>
 
-            <hr/>
-            <p class='yosemite'><b>Catalina and below: </b><a href="/appyos/1.0.10/LaunchpadManager.dmg">Download</a></p>
+      <!-- Legacy Download -->
+      <div class="ag-legacy">
+        <p>Looking for the original Launchpad Manager? <a href="download_yosemite.php">Download here</a> (no longer updated — macOS Sequoia and below only) &nbsp;·&nbsp; <?php echo number_format(intval(trim(file_get_contents('count.txt'))));?> downloads</p>
+      </div>
 
-
-          </center>
-        
-        <h3>
-      	 <?php echo number_format(intval(trim(file_get_contents('count.txt'))));?> downloads!
-      	</h3>
-        </hgroup>
-        
-	
-        
-        <br />
-        <br />
-      
-      
-     <div class="thumb"> 
-      
-       <br /><br /><br /><br />
-       <br /><br />
-
- </aside>                 
- <br />
- </div>
+    </div>
   </div>
   
 <?php include('footer.php')?>

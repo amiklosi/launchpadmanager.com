@@ -2,42 +2,89 @@
 
 @charset "utf-8";
 
-/* Deprecation Banner Styles */
-.deprecation-banner {
-	background: linear-gradient(135deg, #2c3e50, #3498db) !important;
-	color: white !important;
-	padding: 20px 25px !important;
-	margin: 100px 0 20px 0 !important;
-	border-radius: 12px !important;
-	box-shadow: 0 6px 20px rgba(0,0,0,0.1) !important;
-	border-left: 4px solid #f39c12 !important;
-	display: block !important;
-	width: auto !important;
-	position: relative !important;
+/* AppGrid Hero */
+.ag-hero {
+	margin: 100px 0 0 0;
+	padding: 60px 40px;
+	background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+	border-radius: 16px;
+	color: white;
+	text-align: center;
 }
-
-.deprecation-banner .banner-content h3 {
-	margin: 0 0 8px 0 !important;
-	font-size: 18px !important;
-	font-weight: bold !important;
-	color: white !important;
+.ag-hero-inner {
+	max-width: 640px;
+	margin: 0 auto;
 }
-
-.deprecation-banner .banner-content p {
-	margin: 0 !important;
-	font-size: 14px !important;
-	line-height: 1.4 !important;
-	color: white !important;
+.ag-label {
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #94a3b8;
+	margin: 0 0 12px;
 }
-
-.deprecation-banner .banner-content a {
+.ag-hero h1 {
+	font-size: 3rem;
+	font-weight: 800;
+	margin: 0 0 16px;
+	color: white;
+	text-shadow: none;
+}
+.ag-sub {
+	font-size: 1.1rem;
+	color: #cbd5e1;
+	line-height: 1.6;
+	margin: 0 0 32px;
+}
+.ag-buttons {
+	display: flex;
+	gap: 16px;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+.ag-btn-primary {
+	background: #f59e0b;
+	color: #1e293b !important;
+	padding: 14px 32px;
+	border-radius: 10px;
+	font-weight: 700;
+	font-size: 1rem;
+	text-decoration: none !important;
+	transition: opacity 0.2s;
+}
+.ag-btn-primary:hover { opacity: 0.85; }
+.ag-btn-secondary {
+	background: transparent;
 	color: white !important;
+	padding: 14px 32px;
+	border-radius: 10px;
+	font-weight: 600;
+	font-size: 1rem;
+	text-decoration: none !important;
+	border: 2px solid #475569;
+	transition: border-color 0.2s;
+}
+.ag-btn-secondary:hover { border-color: #94a3b8; }
+.ag-note {
+	font-size: 13px;
+	color: #64748b;
+	margin: 0;
+}
+.ag-note a {
+	color: #94a3b8 !important;
 	text-decoration: underline !important;
-	font-weight: bold !important;
 }
 
-.deprecation-banner .banner-content a:hover {
-	color: #f39c12 !important;
+/* Legacy download line */
+.ag-legacy {
+	text-align: center;
+	padding: 20px;
+	font-size: 13px;
+	color: #888;
+	margin-bottom: 40px;
+}
+.ag-legacy a {
+	color: #aaa;
 }
 
 .yosemite {
